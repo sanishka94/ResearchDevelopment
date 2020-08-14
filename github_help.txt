@@ -1,0 +1,44 @@
+1. Updating github repo
+>> git branch <new_branch>
+>> git checkout <new_branch>
+>> git add .
+>> git commit -m "<your message>"
+>> git checkout master
+>> git merge <new_branch>
+>> git branch -d <new_branch>
+>> git push origin master
+
+
+2. Updating local directory
+>> git pull
+## or
+>> git remote add upstream <url_of_repo>
+>> git pull upstream master
+
+
+3. Connect local directory with github repo
+>> git init
+>> git add .
+>> git commit -m "<your message>"
+>> git remote add origin <url_of_repo>
+>> git push origin master
+
+## if error: failed to push some refs to ...
+## do a pull request
+
+>> git pull origin master
+
+## if failed: refusing to merge unrelated histories
+## allow unrelated histories and pull again
+
+>> git pull origin master --allow-unrelated-histories
+>> git push origin master
+
+
+4. Cloning a github repo to local directory
+>> git clone <url_of_repo>
+
+
+## --info--
+## upstream: refers to original repo
+## origin: refers to your fork or clone of the original repo or your own repo on github
