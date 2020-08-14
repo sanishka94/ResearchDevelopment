@@ -1,0 +1,26 @@
+ Volume in drive D is TARC_C
+ Volume Serial Number is 3CE4-0CF6
+
+ Directory of D:\Dropbox\Python\Code\Chap_14
+
+05/24/2019  03:32 PM    <DIR>          .
+05/24/2019  03:32 PM    <DIR>          ..
+05/22/2019  04:12 PM           278,810 anagrams.txt
+05/22/2019  03:40 PM             2,224 anagram_sets.py
+05/21/2019  04:58 PM             1,310 chap_14.py
+05/22/2019  03:30 PM               488 chap_14_12.py
+05/22/2019  04:13 PM               609 chap_14_12_2.py
+05/24/2019  03:20 PM               256 chap_14_12_3.py
+05/22/2019  05:06 PM               316 chap_14_8.py
+05/22/2019  03:30 PM               376 newfile.txt
+05/21/2019  04:50 PM               945 os_module.py
+05/22/2019  03:30 PM               372 output.txt
+05/21/2019  05:28 PM                99 subprocess_module.py
+05/24/2019  11:50 AM             1,497 testing_shell.py
+05/24/2019  03:47 PM    <DIR>          tet
+05/24/2019  04:16 PM                 0 things.txt
+05/22/2019  02:23 PM               207 wc.py
+04/05/2019  11:16 AM         1,130,523 words.txt
+05/22/2019  03:54 PM    <DIR>          __pycache__
+              15 File(s)      1,418,032 bytes
+               4 Dir(s)  262,461,710,336 bytes free
