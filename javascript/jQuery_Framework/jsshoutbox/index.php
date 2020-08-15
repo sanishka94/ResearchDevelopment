@@ -1,4 +1,10 @@
 <?php include 'database.php'; ?>
+<?php 
+    // Create Select Query
+    $query = 'SELECT * FROM shouts ORDER BY id DESC';
+    $shouts = mysqli_query($con, $query);
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +12,7 @@
     <title>JS Shoutbox</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="./js/script_1.js"></script>
 </head>
 <body>
     <div id="container">
@@ -15,7 +21,9 @@
         </header>
         <div id="shouts">
             <ul>
-                <li></li>
+                <?php while($row  = mysqli_fetch_assoc($shouts)) : ?>
+                    <li><?php echo $row['name']; ?>: <?php echo $row['shout']; ?> [<?php echo $row['date']; ?>]</li>
+                <?php endwhile; ?>
             </ul>
         </div>
         <footer>
