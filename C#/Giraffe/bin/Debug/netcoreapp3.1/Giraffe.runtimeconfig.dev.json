@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Sanis\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Sanis\\.nuget\\packages"
+    ]
+  }
+}

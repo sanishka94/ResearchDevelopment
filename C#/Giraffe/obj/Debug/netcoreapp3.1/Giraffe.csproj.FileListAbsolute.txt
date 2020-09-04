@@ -1,0 +1,13 @@
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.exe
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.deps.json
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.runtimeconfig.json
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.runtimeconfig.dev.json
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.dll
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\bin\Debug\netcoreapp3.1\Giraffe.pdb
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.csprojAssemblyReference.cache
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.AssemblyInfoInputs.cache
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.AssemblyInfo.cs
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.csproj.CoreCompileInputs.cache
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.dll
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.pdb
+H:\Software_Engineering\ResearchDevelopment\C#\Giraffe\obj\Debug\netcoreapp3.1\Giraffe.genruntimeconfig.cache
