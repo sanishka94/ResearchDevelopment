@@ -5,12 +5,23 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
 use App\User;
+use App\Post;
 
 class PostsController extends Controller
 {
     public function __construct()
     {
         $this->middleware('auth');  // makes the page available only when authenticated
+    }
+
+    public function index()
+    {
+        $users = auth()->user()->following()->pluck('profiles.user_id');
+
+        // $posts = Post::whereIn('user_id', $users)->orderBy('created_at', 'DESC')->get(); // alternative long method
+        $posts = Post::whereIn('user_id', $users)->with('user')->latest()->paginate(5);
+
+        return view('posts.index', compact('posts'));
     }
 
     public function create()

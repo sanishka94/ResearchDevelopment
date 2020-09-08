@@ -1,0 +1,10 @@
+// Run the server
+php artisan serve
+
+// Keep running compiler
+npm run watch
+
+
+// addons
+- telescope
+- mailtrap
