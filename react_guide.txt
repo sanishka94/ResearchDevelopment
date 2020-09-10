@@ -1,0 +1,15 @@
+1. To use CSS modules
+
+in the terminal
+- npm run eject
+
+in the files: 'config/webpack.config.dev.js' and 'config/webpack.config.dev.js'
+add the below code to 'options' in the 'css' 'use' 
+
+modules: true,
+localIdentName:  '[name]__[local]__[hash:base64:5]'
+
+
+2. To use css modules with react-script 2 or higher
+-change 'css' files to 'modules.css'  (eg: app.css => app.module.css )
+-no eject needed, it will automatically be available
